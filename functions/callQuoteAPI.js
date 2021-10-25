@@ -1,6 +1,6 @@
-const fetch = require("node-fetch");
+//const fetch = require("node-fetch");
 
-const API_ENDPOINT = "https://ron-swanson-quotes.herokuapp.com/v2/quotes";
+//const API_ENDPOINT = "https://ron-swanson-quotes.herokuapp.com/v2/quotes";
 
 /*
 exports.handler = async (event, context, callback) => {
@@ -12,9 +12,9 @@ exports.handler = async (event, context, callback) => {
 
 */
 
-exports.handler = async (event, context) => {
-  return {
+exports.handler = function (event, context, callback) {
+  callback(null, {
     statusCode: 200,
-    body: "Hello, World"
-  };
+    body: "Hello, World",
+  });
 };
