@@ -16,5 +16,8 @@
   "homepage": "https://github.com/coding-island-js/ron-swanson-api-netlify-functions#readme",
   "devDependencies": {
     "netlify-cli": "^6.14.0"
+  },
+  "dependencies": {
+    "node-fetch": "^3.0.0"
   }
 }
