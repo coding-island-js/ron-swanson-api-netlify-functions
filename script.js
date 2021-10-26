@@ -1,6 +1,6 @@
 //url for Netlify Functions
 const quoteNetlifyFunctions =
-  "https://coding-island-breathe.netlify.app/.netlify/functions/callQuoteAPI";
+  "https://ron-swanson-quotes-api.netlify.app/.netlify/functions/callQuoteAPI";
 
 //call api when page loads
 callQuoteAPI();
