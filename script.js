@@ -1,5 +1,5 @@
 //url for Netlify Functions
-const quoteNetlifyFunctions = "./.netlify/functions/callQuoteAPI";
+const quoteNetlifyFunctions = "/.netlify/functions/ronSwansonQuotes";
 
 //call api when page loads
 callQuoteAPI();
