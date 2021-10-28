@@ -10,6 +10,8 @@ function callQuoteAPI() {
     .then((response) => response.json())
     .then((data) => {
       console.log(data);
+      //display the quote on the HTML Page
+      document.getElementById("ron-swanson-quote").innerText = data;
     })
     .catch((error) => console.error(error));
 }
