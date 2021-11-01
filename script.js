@@ -1,4 +1,4 @@
-//url for Netlify Functions
+// url for Netlify Functions
 const quoteNetlifyFunctions = "/.netlify/functions/ronSwansonQuotes";
 
 //call api when page loads
