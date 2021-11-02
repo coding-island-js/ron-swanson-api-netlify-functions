@@ -11,7 +11,3 @@ exports.handler = async (event, context, callback) => {
     }))
     .catch((error) => ({ statusCode: 422, body: String(error) }));
 };
-
-//parses the response (Ron Swanson Quote) as JSON
-
-//return the Ron Swanson Quote as a String back to the client
