@@ -1,4 +1,4 @@
-// url for Netlify Functions
+// url for Netlify Functions. When the Netlify builds the site, it places all functions in the "/.netlify/" folder
 const quoteNetlifyFunctions = "/.netlify/functions/ronSwansonQuotes";
 
 //call api when page loads
