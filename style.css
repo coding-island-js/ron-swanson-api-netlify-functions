@@ -10,8 +10,15 @@ body {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
+  text-align: center;
+}
+
+main {
+  margin: auto;
+}
+
+header, footer {
   background: #d1bdf7;
-  place-items: center;
   padding-block: 2vw;
 }
 
